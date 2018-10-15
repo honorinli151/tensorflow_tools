@@ -4,7 +4,7 @@ Project: d:\MyProjects\tensorflow_tools
 Created Date: Monday October 15th 2018
 Author: Chenle Li
 -----
-Last Modified: 2018-10-15 11:20:42
+Last Modified: 2018-10-15 11:21:27
 Modified By: Chenle Li at <chenle.li@student.ecp.fr>
 -----
 Copyright (c) 2018 Chenle Li
@@ -949,4 +949,4 @@ class ObjectDetectionEvaluation(object):
     mean_corloc = np.nanmean(self.corloc_per_class)
     return ObjectDetectionEvalMetrics(
         self.average_precision_per_class, mean_ap, self.precisions_per_class,
-        self.recalls_per_class, self.corloc_per_class, mean_corloc, F2_Score)
+        self.recalls_per_class, self.corloc_per_class, mean_corloc, F2_ScoreP)
