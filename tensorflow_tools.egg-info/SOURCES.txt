@@ -1,0 +1,6 @@
+README.md
+setup.py
+tensorflow_tools.egg-info/PKG-INFO
+tensorflow_tools.egg-info/SOURCES.txt
+tensorflow_tools.egg-info/dependency_links.txt
+tensorflow_tools.egg-info/top_level.txt
